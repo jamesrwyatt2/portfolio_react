@@ -34,7 +34,7 @@ export default function Projects() {
                         <button
                             value={option}
                             onClick={filterProjects}
-                            className="inline-flex text-white bg-blue-500 border-0 py-2 px-4 focus:outline-none hover:bg-blue-600 rounded text-base m-1">
+                            className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-slate-800 rounded text-base m-1">
                             {option}
                         </button>
                     ))}
@@ -52,7 +52,7 @@ export default function Projects() {
                                     src={project.image}
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                                    <h2 className="tracking-widest text-sm title-font font-medium text-green-700 mb-1">
                                         {project.subtitle}
                                     </h2>
                                     <h1 className="title-font text-lg font-medium text-white mb-3">

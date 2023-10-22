@@ -29,9 +29,10 @@ export default function Projects() {
                         fuga dolore.
                     </p>
                 </div>
-                <div className="flex justify-center mb-8">
+                <div className="flex flex-wrap justify-center mb-8">
                     {filterOptions.map((option) => (
                         <button
+                            key={option}
                             value={option}
                             onClick={filterProjects}
                             className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-slate-800 rounded text-base m-1">

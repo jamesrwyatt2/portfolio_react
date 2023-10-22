@@ -2,40 +2,49 @@
 
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    category: ["React", "MongoDB", "Node", "Express"],
+    title: "JWT Authentication App",
+    subtitle: "React, Java, Spring Boot, AWS",
+    category: ["React","Java","Spring Boot", "AWS", "Docker", "Frontend", "Backend"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "#",
-  },
-  {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    category: ["React", "Python"],
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "#",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    category: ["React", "Firebase", "Java"],
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "#",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    category: ["Java"],
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Customized JWT Authentication App using React, Java, Spring Boot, and deployed on AWS.",
     image: "./project-4.gif",
-    link: "#",
+    link: "#projects",
+  },
+  {
+    title: "Airspace Schdueler App",
+    subtitle: "React, Java, Spring Boot, AWS, Platform One",
+    category: ["React","Java","Spring Boot", "Postgres", "AWS", "Docker", "Frontend", "Backend"],
+    description:
+      "1 of 2, building custom web applications for schduling airspace for the Airforce.",
+    image: "./project-4.gif",
+    link: "#projects",
+  },
+  {
+    title: "Airspace Optimization App",
+    subtitle: "Salesforce, Lightning Web Components, Apex, Java",
+    category: ["Salesforce", "Apex", "Java", "Frontend", "Backend"],
+    description:
+      "1 of 1, developing custom Salesforce Components to optimize airspace for the Airforce.",
+    image: "./project-4.gif",
+    link: "#projects",
+  },  
+  {
+    title: "Portfolio",
+    subtitle: "React, Tailwind, and AWS",
+    category: ["React", "Tailwind", "JavaScript", "AWS", "Frontend"],
+    description:
+      "This portfolio was built using React and Tailwind CSS. It is hosted on AWS using Amplify. Utilizing emaljs to send emails from the contact form.",
+    image: "./project-4.gif",
+    link: "#projects",
+  },
+  {
+    title: "Fidelity Investments",
+    subtitle: "Java Angular",
+    category: ["Java", "backend"],
+    description:
+      "Worked on enterprise level, customer facing applications for Fidelity Investments.",
+    image: "./project-4.gif",
+    link: "#projects",
   },
 ];
 

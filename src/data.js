@@ -40,7 +40,6 @@ export const projects = [
 ];
 
 export const skills = [
-
   "Java",
   "Spring Boot",
   "JavaScript",

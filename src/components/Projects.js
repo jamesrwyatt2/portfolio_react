@@ -8,7 +8,11 @@ export default function Projects() {
     const [projectDisplay, setProjectDisplay] = useState(projects);
 
     function filterProjects(event) {
-        setProjectDisplay(projects.filter((project) => project.category.includes(event.target.value)));
+        if (event.target.value.includes("All")) {
+            setProjectDisplay(projects);
+        } else {
+            setProjectDisplay(projects.filter((project) => project.category.includes(event.target.value)));
+        }
     }
 
     return (

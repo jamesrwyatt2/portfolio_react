@@ -52,6 +52,7 @@ export const skills = [
 ];
 
 export const filterOptions = [
+  "All",
   "Frontend",
   "Backend",
   "Java",

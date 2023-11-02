@@ -34,7 +34,7 @@ export const projects = [
     category: ["React", "Tailwind", "JavaScript", "AWS", "Frontend"],
     description:
       "This portfolio was built using React and Tailwind CSS. It is hosted on AWS using Amplify. Utilizing emaljs to send emails from the contact form.",
-    image: "./project-4.gif",
+    image: "./ProfilePhoto.png",
     link: "#projects",
   },
   {
